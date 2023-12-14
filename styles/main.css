@@ -1,0 +1,172 @@
+body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Russo One';
+  color: white;
+  font-size: 28px;
+  background: #000000;
+}
+
+.wrapper{
+  min-height: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+  
+.conateiner{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #ffe500;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 20px;  
+}
+
+.menu{
+  display: flex; 
+}
+
+.menu li a{
+  text-decoration: none;
+  color:#000000;
+  font-size: 14px;
+}
+
+.menu li{
+  margin-right: 40px;
+}
+
+ul, li {
+  display: block;
+}
+  
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.section{
+  padding: 20px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+}  
+
+h1{
+  color:#ffe500;
+}
+
+h2{
+  color:#ffe500;
+  font-size: 20px;
+}
+
+.contacts{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactpic{
+  padding: 20px;
+}
+   
+.footer{
+  background-color: #ED1D26;
+  color: black;
+  font-size: 11px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal{
+    position: fixed;
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color:  rgba(237, 29, 38, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+  .modal__box{
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    background-color: #242424;
+    transform: scale(0);
+    transition: transform .8s;
+}
+  .modal.open{
+    visibility: visible;
+    opacity: 1;
+}
+  .modal.open .modal__box{
+    transform: scale(1);
+}
+
+  .login{
+    width: 347px;
+    height: 42px;
+    border-radius: 0px;
+    border: 1px solid #ED1D26;
+    background: #000000;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.password{
+  width: 347px;
+  height: 42px;
+  border-radius: 0px;
+  border: 1px solid #ED1D26;
+  background: #000000;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+button{
+  background: transparent;
+  border-radius: 50%;
+  border: 0;
+  align-items: right;
+  padding: 20px;
+}
+
+.yellowButtons{
+  width: 347px;
+    height: 57px;
+    border-radius: 15px;
+    border: 1px solid #ffe500;
+    background: #ffe500;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Russo One";
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.services{
+  font-size: 14px;
+}
+
+   
+
+   
